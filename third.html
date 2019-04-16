@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盒子模型水平居中和垂直居中</title>
+	<style>
+		body{
+			background-color:lightblue;
+			width:100%;
+			height:100%;
+			text-align:center;
+			margin:0px;
+			padding:0px;
+        }
+		#picture div{
+			background-color:white;
+			padding:20px;
+			margin:20px auto;
+		}
+		#picture{
+			display:flex;
+			align-items: center; 
+            justify-content: center;
+		}
+		#picture5{
+			background-color:white;
+			padding:20px;
+			margin:20px auto;
+			width:201px;
+			height:208px;
+		}
+		}
+	</style>
+</head>
+<body>
+<div id="picture">
+	<div>
+		<img src="picture1.JPG" alt="1">
+		<p>picture</p>
+	</div>
+	<div>
+		<img src="picture2.JPG" alt="2">
+		<p>picture</p>
+	</div>
+	<div>
+		<img src="picture3.JPG" alt="3">
+		<p>picture</p>
+	</div>
+	<div>
+		<img src="picture4.JPG" alt="4">
+		<p>picture</p>
+	</div>
+</div>
+	<div id="picture5">
+		<img src="picture5.JPG" alt="5">
+		<p>picture</p>
+	</div>
+</body>
+</html>
